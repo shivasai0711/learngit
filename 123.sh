@@ -42,43 +42,4 @@
             position: fixed;
             bottom: 0;
             width: 100%;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>Welcome to My Static Web Page</h1>
-    </header>
-
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <main>
-        <section id="home">
-            <h2>Home</h2>
-            <p>This is the home section of my static web page.</p>
-        </section>
-
-        <section id="about">
-            <h2>About</h2>
-            <p>This page is created to demonstrate a simple static web page layout using HTML and CSS.</p>
-            <img src="https://via.placeholder.com/300" alt="Sample Image">
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>You can contact me via email at <a href="mailto:example@example.com">example@example.com</a>.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 My Static Web Page</p>
-    </footer>
-
-</body>
-</html>
-
+     
