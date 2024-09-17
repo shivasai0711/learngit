@@ -1,1 +1,4 @@
-this is my first file to store
+#!/bin/bash
+
+# firs code 
+
