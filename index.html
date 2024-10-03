@@ -3,49 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML Page</title>
+    <title>Simple Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 15px 0;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
 
     <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Welcome to My Simple Page</h1>
     </header>
 
-    <section id="home">
-        <h2>Home Section</h2>
-        <p>This is the home section of the webpage. You can add content here.</p>
-    </section>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <section id="about">
-        <h2>About Section</h2>
-        <p>This section contains information about the website or the owner.</p>
-    </section>
+    <div class="container">
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer a variety of services, including web design, development, and digital marketing.</p>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Section</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br><br>
+        <section id="portfolio">
+            <h2>Our Portfolio</h2>
+            <p>Check out some of our recent projects:</p>
+            <ul>
+                <li>Project A - Website Design</li>
+                <li>Project B - App Development</li>
+                <li>Project C - SEO Optimization</li>
+            </ul>
+        </section>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br><br>
-
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-
-            <input type="submit" value="Submit">
-        </form>
-    </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you'd like to work with us, feel free to reach out:</p>
+            <p>Email: info@example.com</p>
+            <p>Phone: (555) 555-5555</p>
+        </section>
+    </div>
 
     <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <p>&copy; 2024 Simple Web Design. All rights reserved.</p>
     </footer>
 
 </body>
